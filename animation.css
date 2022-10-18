@@ -1,0 +1,43 @@
+.figure_three{
+  animation: fug1 40s 0.3s infinite;
+}
+@keyframes fug1 {
+ from{
+   transform: rotate(0deg);
+ }
+ to{
+  transform: rotate(365deg);
+ }
+
+}
+.figure_one{
+  animation: fugone 30s 0.3s infinite;
+}
+@keyframes fugone {
+  from{ 
+    transform: rotate(0deg);
+
+  }
+  to{ 
+    transform: rotate(-365deg);
+    
+  }
+}
+.figure_two{
+  animation: fugtwo 10s 0.3s infinite;
+  animation-fill-mode: forwards
+}
+@keyframes fugtwo {
+0%{
+  transform: translateY(0);
+}
+50%{
+  transform: translateY(30px);
+}
+100%{
+  transform: translateY(0);
+}
+}
+.figure_ses-one{
+  animation: sesone 10s 0.3s infinite;
+}
